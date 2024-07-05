@@ -1,0 +1,125 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a7bb3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header h1 {
+    font-size: 56px;
+}
+header p{
+    font-size: 26px;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+    background-size: cover; 
+    background-color:white;
+    text-align: center;
+    font-size:36px;
+
+
+    
+}
+
+#about img {
+    
+    padding: 20px;
+    max-width: 30%;
+    border-radius: 50%;
+
+}
+#about p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium bold;
+    margin:0px 80px ;
+    font-size: large;
+}
+
+
+#skills {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 20px; 
+    padding: 0px 40px;
+    font-size: 56px;
+    background-color:azure;
+
+}
+
+#skills ul{
+    list-style: none;
+    padding: 0px;
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px; }
+
+#skills ul li
+{
+    background-color: #09a2ee;
+    color: rgb(14, 13, 13); 
+    padding: 10px 10px; 
+    border-radius: 5px;
+}
+
+
+
+#projects {
+    text-align: center;
+    padding: 20px;
+    font-size: 56px;
+    background-color: bisque;
+    
+}
+
+.project {
+    margin-bottom: 20px;
+    font-size:56px;
+}
+
+.project img {
+    width:70%;
+    border-style: solid;
+}
+
+
+#resume {
+    text-align: center;
+    padding: 20px;
+    font-size: 56px;
+    background-color: rgb(218, 238, 247);
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
